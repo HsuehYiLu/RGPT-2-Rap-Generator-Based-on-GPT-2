@@ -17,6 +17,8 @@ Emails:
 This project aims to generate rap verses that are humanly realistic enough to be distinguishable from other genres. Our model, RGPT-2, is based on fine-tuning the GPT-2 text generation model, with a unique approach inspired by the GPoet-2 model. Instead of using just one model, we utilize a two-model consecutive generating process. The second model is trained on the reversed training texts, capturing more structure within a verse. Our model can generate hyper-human-like rap verses that easily fit into the hip-hop genre.
 
 
+<img src="img/Verses.png">
+
 ## Introduction
 
 NLP is a developing technology with many challenges. In this project, we aim to train a language generation model to create rap lyrics. By training on rap lyrics data and using a classification model, we can determine if the generated sentences are rap lyrics.
@@ -56,6 +58,8 @@ Our model is based on GPT-2, a text generation model created by OpenAI. We were 
 Our implementation involves training the GPT-2 model twice: once on the original dataset and once on the reversed dataset. During generation, the first line is generated using the model trained on the original dataset, and subsequent lines are generated using the model trained on the reversed dataset.
 
 ### Classification Model
+
+<img src="img/Modelstruck.png">
 
 We use a combined model that includes a BERT model as the base model and a classifier model for the final output. BERT is a pre-trained transformer-based model for natural language processing (NLP) developed by Google. It is trained on a large corpus of unlabeled data from BooksCorpus and Wikipedia, which allows it to learn bidirectionally from word sequences.
 

@@ -8,24 +8,6 @@ Emails: lootlecoop@gwmail.gwu.edu, hsuehyi_lu2580@gwmail.gwu.edu
 ## Abstract
 This project aims to generate rap verses that are humanly realistic and distinguishable from other genres. The model, RGPT-2, is based on fine-tuning the GPT-2 text generation model. Inspired by the GPoet-2 model, our implementation utilizes a two-model consecutive generating process. The second model is trained on reversed training texts, capturing more structure within a verse. Our model can generate hyper-human-like rap verses without any provided words, easily categorizable into the hip-hop genre.
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Related Work](#related-work)
-   2.1 [Language Generation](#language-generation)
-3. [Datasets](#datasets)
-   3.1 [Source](#source)
-   3.1.1 [Text Generation](#text-generation)
-   3.1.2 [Genre Classification](#genre-classification)
-   3.2 [Preprocessing](#preprocessing)
-4. [Models](#models)
-   4.1 [Inspiration](#inspiration)
-   4.2 [Framework](#framework)
-      4.2.1 [Training](#training)
-      4.2.2 [Generating](#generating)
-   4.3 [Classification Model](#classification-model)
-5. [Results](#results)
-6. [Summary](#summary)
-7. [References](#references)
 
 ## Introduction
 NLP is a developing technology with many challenges, and this project explores the use of language generation models to train a rapper model capable of creating rap lyrics. By training the model on rap lyrics data and using a classification model, we can identify the generated rap lyrics and distinguish them from other genres.

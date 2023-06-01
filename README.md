@@ -63,6 +63,9 @@ Our implementation involves training the GPT-2 model twice: once on the original
 
 We use a combined model that includes a BERT model as the base model and a classifier model for the final output. BERT is a pre-trained transformer-based model for natural language processing (NLP) developed by Google. It is trained on a large corpus of unlabeled data from BooksCorpus and Wikipedia, which allows it to learn bidirectionally from word sequences.
 
+
+<img src="img/Modelex.png">
+
 ## Results
 
 After testing, 87% of the generated lyrics were classified as rap music lyrics by the classification model. The model showed promising performance in distinguishing rap lyrics from other genres. However, further improvements can be made by increasing the amount of training data and considering additional indicators for classification.

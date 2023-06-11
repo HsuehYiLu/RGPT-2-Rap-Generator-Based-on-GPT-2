@@ -1,0 +1,9 @@
+jupyter
+numpy
+torch
+hydra-core
+transformers
+scikit-learn
+omegaconf
+pronouncing
+

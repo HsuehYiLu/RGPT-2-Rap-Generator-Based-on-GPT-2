@@ -1,0 +1,6 @@
+data_dir: "../data/preprocessing"
+ckpt_dir: "./ckpt/"
+reverse: false
+use_bos: true
+order: null
+punctuation: true

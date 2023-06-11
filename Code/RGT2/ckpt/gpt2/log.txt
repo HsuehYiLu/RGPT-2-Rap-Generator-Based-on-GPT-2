@@ -1,0 +1,10 @@
+Epoch 1 Loss: 2.9416 Perplexity 11.6298
+Epoch 2 Loss: 2.2547 Perplexity 7.6182
+Epoch 3 Loss: 1.8680 Perplexity 5.8208
+Epoch 4 Loss: 1.6041 Perplexity 4.7778
+Epoch 5 Loss: 1.4027 Perplexity 4.0785
+Epoch 6 Loss: 1.2438 Perplexity 3.6093
+Epoch 7 Loss: 1.1197 Perplexity 3.2809
+Epoch 8 Loss: 1.0238 Perplexity 3.0545
+Epoch 9 Loss: 0.9545 Perplexity 2.9155
+Epoch 10 Loss: 0.9092 Perplexity 2.8650
